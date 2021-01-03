@@ -1,3 +1,9 @@
+"""
+a simple practice scripts to that writes 1 to a 100 on a txt file
+after every number it prints a space for formating 
+after every mutiple of 10, it creates a new line 
+"""
+
 output = open("testoutput.txt","w")
 
 for i in range(100):
